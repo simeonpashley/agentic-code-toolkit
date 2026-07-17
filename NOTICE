@@ -1,0 +1,73 @@
+NOTICE
+
+This product includes software developed by third parties. Each entry below
+is licensed under the MIT License. The full MIT licence text is in the
+LICENSE file at the root of this repository. This NOTICE is provided for
+attribution only and does not modify the licence terms of either this work
+or the upstream works.
+
+────────────────────────────────────────────────────────────────────────────
+
+mattpocock/skills
+  Source:    https://github.com/mattpocock/skills
+  Copyright: (c) 2026 Matt Pocock
+  Licence:   MIT
+
+  Used for:  Inspiration for the local re-implementations of
+             skills/grill-with-docs/SKILL.md and
+             skills/improve-codebase-architecture/SKILL.md. The text in
+             those files is original work; the concept and vocabulary
+             are drawn from the upstream skill designs. No verbatim
+             code is included. Each file carries an `Inspired by:`
+             comment in its frontmatter block.
+
+────────────────────────────────────────────────────────────────────────────
+
+spences10/my-pi  (packages/pi-redact, packages/pi-confirm-destructive)
+  Source:    https://github.com/spences10/my-pi
+  Copyright: (c) 2026 Scott Spence
+  Licence:   MIT
+
+  Used for:  The starting point for extensions/redact.ts and
+             extensions/confirm-destructive.ts. Both files retain
+             their upstream `Original -` attribution comment at the
+             top. Substantial local modifications have been made since
+             the fork; consult the git history for details.
+
+────────────────────────────────────────────────────────────────────────────
+
+tomsej/pi-ext  (extensions/custom-footer)
+  Source:    https://github.com/tomsej/pi-ext
+  Copyright: (c) 2025 tomsej
+  Licence:   MIT
+
+  Used for:  The starting point for extensions/custom-footer/index.ts.
+             The file retains its upstream `Original -` attribution
+             comment at the top.
+
+────────────────────────────────────────────────────────────────────────────
+
+sherif-fanous/pi-rtk
+  Source:    https://github.com/sherif-fanous/pi-rtk
+  Copyright: (c) 2026 Sherif Fanous
+  Licence:   MIT
+
+  Used for:  The starting point for extensions/rtk.ts. The file
+             retains its upstream `Original -` attribution comment at
+             the top.
+
+────────────────────────────────────────────────────────────────────────────
+
+@raquezha/noheadroom (npm package)
+  Source:    https://www.npmjs.com/package/@raquezha/noheadroom
+             (the canonical source repository was not publicly
+             accessible at the time this NOTICE was written; the npm
+             package metadata declares MIT across all published
+             versions)
+  Copyright: (c) 2026 raquezha
+  Licence:   MIT (per package metadata)
+
+  Used for:  The starting point for extensions/headroom/. The local
+             fork has diverged substantially from the published
+             noheadroom package; consult the git history for the
+             changes.

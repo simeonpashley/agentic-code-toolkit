@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a concrete problem with the toolkit.
+labels: ["bug"]
+body:
+  - id: summary
+    attributes:
+      label: What happened?
+      description: One sentence describing the failure.
+    validations:
+      required: true
+  - id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Steps, commands, or a snippet that reproduces the problem.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - id: expected
+    attributes:
+      label: Expected behaviour
+      description: What you expected to happen.
+    validations:
+      required: true
+  - id: environment
+    attributes:
+      label: Environment
+      description: Runtime (pi version, OS), extension or skill, and any relevant config.
+    validations:
+      required: true
+  - id: notes
+    attributes:
+      label: Notes
+      description: Anything else worth knowing.
+    validations:
+      required: false

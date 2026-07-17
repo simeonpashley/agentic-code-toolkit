@@ -1,0 +1,3 @@
+- Always `read` before `edit`/`insert`
+- On truncation: continue at suggested offset
+- `raw: true` = no anchors; cannot feed into `edit`/`insert`

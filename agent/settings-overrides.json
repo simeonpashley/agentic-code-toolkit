@@ -1,0 +1,18 @@
+{
+  "collapseChangelog": true,
+  "enableInstallTelemetry": false,
+  "quietStartup": true,
+  "hideThinkingBlock": true,
+  "doubleEscapeAction": "none",
+  "defaultThinkingLevel": "medium",
+  "packages": [
+    "npm:@dreki-gg/pi-context7",
+    "npm:@narumitw/pi-chrome-devtools",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@tintinweb/pi-subagents",
+    "npm:pi-mcp-adapter"
+  ],
+  "terminal": {
+    "showTerminalProgress": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "system": [
+    "sessions/",
+    "auth.json",
+    "trust.json",
+    "pi-crash.log",
+    "npm/",
+    "memory/",
+    "agents/",
+    "settings.json",
+    "models.json",
+    "mcp.json",
+    "bin/",
+    "scripts/agentStack.ts",
+    "pricing-cache.json"
+  ],
+  "blocklist": [".DS_Store", "scripts/symlink-global.sh"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "opus-code-refactor",
+  "files": [
+    "SKILL.md",
+    "references/behaviour-locks.md",
+    "references/refactoring-catalogue.md",
+    "references/risk-and-verification.md"
+  ],
+  "skill_lines": 250
+}

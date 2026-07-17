@@ -1,0 +1,47 @@
+# Credentials and local auth
+auth.json
+agent/auth.json
+*.local.json
+.env
+.env.*
+**/credentials/**
+**/secrets/**
+
+# Pi runtime state
+sessions/
+agent/sessions/
+memory/daily/cache.json
+agent/memory/daily/cache.json
+memory/notes/
+agent/memory/notes/
+*.jsonl
+
+# Dependencies and build artefacts
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Disabled or scratch experiments
+*.DISABLED.ts
+*.DISABLEDts
+*.disabled.ts
+*.bak
+*.tmp
+
+# Context7 cache (regenerates on demand)
+extensions/context7/cache
+
+# AI assistant artifacts
+context-snapshot.json
+
+# Token hygiene
+.pi-token-hygiene-off
+.pi/token-hygiene-metrics*.jsonl*
+.pi/token-hygiene-retained/
